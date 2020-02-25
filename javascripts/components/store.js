@@ -3,7 +3,8 @@ import bookData from '../helpers/data/bookData.js';
 import cart from '../components/cart.js';
 
 const addToCartEvent = () => {
-    cart.cartToDom();
+    const book = bookData.getBook();
+    cart.addToCart(book);
 };
 
 
