@@ -1,6 +1,6 @@
 import util from '../helpers/util.js';
 import bookData from '../helpers/data/bookData.js';
-import cart from '../components/cart.js';
+import cart from './cart.js';
 
 const addToCartEvent = () => {
     const book = bookData.getBook();

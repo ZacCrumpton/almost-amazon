@@ -1,6 +1,6 @@
 const cart = [];
 
-const setCart = () => {
+const setCart = (book) => {
     cart.push(book);
 };
 
